@@ -6,9 +6,9 @@ class Converter {
 
         int sum = 0;
 
-            for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (4 != arr[i].length) throw new MyArraySizeException();
-            for (int j = 0; j < arr[i].length; j++) {
+            for (int j = 0; j <arr[i].length; j++) {
                 try {
                     sum += Integer.parseInt(arr[i][j]);
                 } catch (NumberFormatException e) {
